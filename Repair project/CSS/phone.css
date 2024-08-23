@@ -1,0 +1,230 @@
+/* body{
+    background-color: red;
+} */
+/* nav head  */
+.nav-head,
+.col {
+    padding: 4px 3px;
+    font-size: 9px;
+}
+span{
+   font-size: 10px;
+}
+/* Main Navabr  */
+.navbar span {
+    font-size: 1rem;
+    margin: 15px 10px;
+}
+.navbar ul li a {
+    margin: 0px 5px;
+    font-size: 12px;
+}
+.navbar::before {
+    height: 53vh;
+}
+/* home section  */
+.home-b {
+    margin: 2px 15px;
+}
+.home-main-img>img {
+    height: 439px;
+    width: 255px;
+    margin-right: 10px;
+}
+.home-main-heading {
+    margin: 10px 10px;
+    padding-right: 10px;
+}
+.home-main-heading h1 {
+    font-size: 1rem;
+    margin: 4px;
+}
+.home-main-heading p {
+    font-size: 0.5rem;
+    margin: 5px;
+}
+.btn-1{
+    font-size: 0.8rem;
+    padding: 8px 6px;
+    margin: 8px 5px;
+    border-radius: 4px;
+}
+/* future section */
+.future-section {
+    /* flex-direction: column; */
+    top: 490px;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+.future-box {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: white;
+    width: 70%;
+    padding: 15px;
+    color: black;
+    margin: 10px 20px;
+}
+.future-box img {
+    width: 140px;
+    margin-bottom: 10px;
+}
+/* about section */
+.aboute {
+ flex-direction: column;
+    top: 500px;
+    /* text-align: center;
+    justify-content: center; */
+    align-items: center;
+    /* width: 100%; */
+
+}
+.about-heading h1 {
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+.about-heading p {
+    font-size: 0.6rem;
+    margin: 10px 0px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+.about-heading button {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+}
+
+.container-about {
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 10px 20px;
+    padding: 20px 40px;
+}
+.about-img img{
+    width: 350px;
+}
+/* profession section  */
+.profession-section {
+    top: 500px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.profession-section::before {
+    height: 80vh;
+}
+.pro-box {
+    margin: 5px 2px;
+    padding: 15px 30px;
+}
+.pro-box img{
+    height: 450px; 
+}
+.profession-heading h1 {
+    font-size: 1.5rem;
+}
+.profession-heading p {
+    font-size: 0.6rem;
+}
+.profession-heading > button{
+    padding: 8px 11px;
+}
+/*  services section   */
+.Services-section {
+    margin-top: 640px;
+}
+.services-heading {
+    font-size: 1.4rem;
+}
+.Services-box {
+    margin-top: 10px;
+    flex-direction: column;
+}
+.services-img img {
+    width: 40%;
+}
+.ser-box {
+    width: 80%;
+    /* background-color: black; */
+    margin: 20px auto;
+}
+.client-box{
+    flex-direction: column;
+}
+.client-box-img {
+    width: 90%;
+    padding: 20px 20px;
+    margin: 10px 17px;
+}
+.client-box-img h1{
+    font-size: 1rem;
+}
+.client-box-img p {
+    font-size: 0.7rem;
+}
+/* dash-section  */
+.dash-box{
+    padding: 25px 30px;
+}
+/* contact section  */
+.contact{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.con-map{
+    width: 100%;
+    margin: 2px 3px;
+}
+.map img{
+    width: 100%;
+}
+form h2{
+    font-size: 1.6rem;
+}
+form{
+    width: 100%;
+    padding: 15px 50px;
+}
+.con-map button {
+    font-size: 1rem;
+    padding: 8px 10px;
+    width: 30%;
+}
+/* info-section  */
+.info-section::before {
+    height: 50vh;
+    background-color: #0a0f43;
+}
+.info-section h1{
+    font-size: 1.6rem;
+    margin: 20px 0px;
+}
+.info-box{
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    /* width: 30%; */
+    /* margin: 10px 20px; */
+    margin-right: 3px;
+}
+.info-icon{
+    /* border: 2px solid black; */
+    margin: 5px 0px;
+    width: 100%;
+}
+.info-icon h4{
+    font-size: 1rem;
+    margin: 15px 2px;
+}
+.info-h1{
+    font-size: 1.5rem;
+    margin-top: 50px;
+    padding: 10px 0px;
+}
+.info-follow{
+    width: 35%;
+}
+footer {
+    font-size: 0.7rem;
+    width: 100vw;
+    padding: 10px 5px; 
+    font-family: "Merriweather Sans", sans-serif;
+}
